@@ -137,7 +137,7 @@ function useOnlineUsersCount() {
 }
 
 // Hook to track online status for a specific user ID
-function useUserOnlineStatus(userId: string) {
+function  (userId: string) {
   const [isOnline, setIsOnline] = useState(false)
 
   useEffect(() => {
